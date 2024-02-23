@@ -1,0 +1,75 @@
+body {
+    background-image: url(https://i.giphy.com/3oEjHImwTUlfR2wBji.webp);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+}
+
+
+.frontpage a {
+    margin: 20px;
+    padding: 10px;
+}
+
+.maintitle {
+    font-weight: 600;
+    font-size: 70px;
+    line-height:65px;
+    letter-spacing: 10px;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient( 68.7deg,  rgba(29,173,235,1) 13.2%, rgba(137,149,250,1) 29.8%, rgba(229,109,212,1) 48.9%, rgba(255,68,128,1) 68.2%, rgba(255,94,0,1) 86.4% );
+}
+    @keyframes move {
+        0%,100%{
+            background-position: 200% 0%;
+        }
+
+        50%{
+            background-position: 0% 200%;
+        }
+    }
+
+
+ul, ol {
+    text-align: center;
+    list-style: inside;
+}
+
+
+img {
+    border-radius: 20px;
+}
+
+img:hover {
+    border: 5px dotted black;
+}
+
+button {
+    padding: 10px;
+}
+
+button:hover {
+    border: 1px solid black;
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+      background-position:15vw;
+    }
+  }
+
+  /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat988.cur), auto !important;} /* End https://www.cursors-4u.com */
